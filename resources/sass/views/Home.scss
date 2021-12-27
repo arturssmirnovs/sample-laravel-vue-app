@@ -1,0 +1,6 @@
+body {
+    background-color: #FFF;
+    @include media-breakpoint-down(sm) {
+        background-color: #CCC;
+    }
+}
